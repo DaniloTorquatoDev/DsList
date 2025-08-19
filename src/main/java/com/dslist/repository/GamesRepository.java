@@ -1,6 +1,6 @@
-package repository;
+package com.dslist.repository;
 
-import entity.Games;
+import com.dslist.entity.Games;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package entity;
+package com.dslist.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -19,6 +19,8 @@ public class Games {
 
     private String title;
     @Column(name = "year_of_release")
+
+
     private int yearOfRelease;
 
     private String genre;
