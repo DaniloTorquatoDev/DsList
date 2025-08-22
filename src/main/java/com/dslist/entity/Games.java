@@ -18,9 +18,8 @@ public class Games {
     private Long id;
 
     private String title;
+
     @Column(name = "year_of_release")
-
-
     private int yearOfRelease;
 
     private String genre;
